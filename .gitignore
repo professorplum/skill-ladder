@@ -14,3 +14,4 @@
 *.backup
 enabled-categories.txt.tmp
 
+*.tar.gz
