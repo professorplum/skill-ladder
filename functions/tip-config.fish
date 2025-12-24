@@ -11,8 +11,8 @@ function tip-config
     if not test -f $enabled_file
         # Create config directory and copy default
         mkdir -p ~/.config/skill-ladder
-        if test -f (dirname (status -f))/enabled-categories.txt
-            cp (dirname (status -f))/enabled-categories.txt $enabled_file
+        if test -f (dirname (dirname (status -f)))/enabled-categories.txt
+            cp (dirname ((dirname (status -f)))/enabled-categories.txt $enabled_file
         else
             # Create default if it doesn't exist
             echo "terminal-beginner" > $enabled_file

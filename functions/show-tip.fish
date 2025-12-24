@@ -26,7 +26,7 @@ function show-tip
     
     # Build path to tips file
     # Note: This assumes tips are in ~/dotfiles/skill-ladder or current directory
-    set tips_file (dirname (status -f))/$tip_category.txt
+    set tips_file (dirname (dirname (status -f)))/$tip_category.txt
     
     if not test -f $tips_file
         return
@@ -90,7 +90,7 @@ function category_enabled
     # Look for config in ~/.config/skill-ladder or fall back to current directory
     set enabled_file ~/.config/skill-ladder/enabled-categories.txt
     if not test -f $enabled_file
-        set enabled_file (dirname (status -f))/enabled-categories.txt
+        set enabled_file (dirname (dirname (status -f)))/enabled-categories.txt
     end
     
     # If no config file exists, all categories enabled by default
