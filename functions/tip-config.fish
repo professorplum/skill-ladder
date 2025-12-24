@@ -11,8 +11,8 @@ function tip-config
     if not test -f $enabled_file
         # Create config directory and copy default
         mkdir -p ~/.config/skill-ladder
-        if test -f (dirname (dirname (status -f)))/enabled-categories.txt
-            cp (dirname ((dirname (status -f)))/enabled-categories.txt $enabled_file
+        if set -q SKILL_LADDER_PATH; and test -f $SKILL_LADDER_PATH/enabled-categories.txt
+            cp $SKILL_LADDER_PATH/enabled-categories.txt $enabled_file
         else
             # Create default if it doesn't exist
             echo "terminal-beginner" > $enabled_file
@@ -110,4 +110,7 @@ function tip-config
             echo "  tip-config --list                     List all available categories"
             echo
             echo "Example:"
-
+            echo "  tip-config --enable git java-beginner spring-beginner"
+            echo "  tip-config --disable docker-beginner"
+    end
+end
