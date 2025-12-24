@@ -1,0 +1,20 @@
+Use clamp() for responsive typography: font-size: clamp(1rem, 2.5vw, 2rem);
+Try CSS Grid auto-fit/auto-fill for responsive columns: grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+Use custom properties with fallbacks: color: var(--theme-color, #000);
+Try @supports to apply CSS only when browser supports it
+Use aspect-ratio property to maintain element proportions: aspect-ratio: 16 / 9;
+Try :is() and :where() to simplify complex selectors: :is(h1, h2, h3):hover
+Use :has() for parent selection based on children: article:has(img)
+Try container queries for component-based responsive design: @container (min-width: 400px)
+Use scroll-snap for carousel-like scrolling experiences
+Try scroll-behavior: smooth for animated scrolling
+Use backdrop-filter for blurred backgrounds: backdrop-filter: blur(10px);
+Try mix-blend-mode for creative color blending effects
+Use will-change to hint browser about animations: will-change: transform;
+Try @layer to organize CSS cascade and manage specificity
+Use :focus-visible to style keyboard focus without mouse focus
+Try inset property as shorthand for top/right/bottom/left
+Use logical properties for internationalization: margin-inline-start instead of margin-left
+Try CSS nesting when available in browser: .parent { .child { } }
+Use prefers-color-scheme media query for dark mode: @media (prefers-color-scheme: dark)
+Try prefers-reduced-motion to respect user accessibility preferences

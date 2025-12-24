@@ -1,0 +1,20 @@
+Use record types for immutable data: record Person(string Name, int Age);
+Try async/await for asynchronous operations: await Task.Run(() => DoWork());
+Use Task.WhenAll() to run multiple async operations in parallel
+Try ValueTask<T> for high-performance async methods that often complete synchronously
+Use Span<T> and Memory<T> for zero-allocation memory operations
+Try ref struct for stack-only types that can't be boxed
+Use IAsyncEnumerable<T> for streaming async sequences: await foreach (var item in stream)
+Try local functions to scope helper methods within parent method
+Use pattern matching with positional patterns: point is (0, 0)
+Try with expressions on records to create modified copies: person with { Age = 31 }
+Use target-typed new expressions: List<string> names = new();
+Try global using directives to reduce repetitive imports
+Use file-scoped namespaces to reduce indentation: namespace MyApp;
+Try required modifier on properties to enforce initialization
+Use CallerArgumentExpression to capture argument expressions in logging
+Try generic math (INumber<T>) for numeric generic constraints
+Use raw string literals for complex strings: """no need to escape "quotes" """
+Try list patterns to match on collection contents: array is [1, 2, 3]
+Use Interlocked class for lock-free atomic operations
+Try channels from System.Threading.Channels for producer-consumer patterns

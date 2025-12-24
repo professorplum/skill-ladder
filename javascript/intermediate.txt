@@ -1,0 +1,20 @@
+Use closure to create private variables: function counter() { let count = 0; return () => ++count; }
+Try WeakMap for storing data associated with objects without preventing garbage collection
+Use Proxy to intercept and customize object operations
+Try Symbol for creating unique property keys that won't conflict
+Use generators (function*) for lazy iteration: function* range(n) { for(let i=0; i<n; i++) yield i; }
+Try async generators for streaming async data: async function* fetchPages() { ... }
+Use Promise.race() to get result of fastest promise: await Promise.race([p1, p2])
+Try Promise.allSettled() to wait for all promises regardless of success/failure
+Use structuredClone() for deep copying objects (modern alternative to JSON methods)
+Try Array.flatMap() to map and flatten in one operation
+Use Array.at() for negative indexing: array.at(-1) gets last element
+Try Object.hasOwn() instead of hasOwnProperty for safer property checks
+Use logical assignment operators: x ||= defaultValue, x &&= newValue, x ??= fallback
+Try private class fields: class Foo { #privateField = 42; }
+Use static class fields and methods for shared functionality
+Try top-level await in modules: const data = await fetch()
+Use import.meta for module metadata like file URLs
+Try optional catch binding: try { ... } catch { ... } when you don't need error object
+Use BigInt for integers larger than Number.MAX_SAFE_INTEGER
+Try Intl API for internationalization: new Intl.DateTimeFormat('en-US').format(date)

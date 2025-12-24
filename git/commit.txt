@@ -1,0 +1,20 @@
+Use 'git commit --amend' to fix your last commit message or add forgotten files
+Try 'git commit --amend --no-edit' to add changes to last commit without editing message
+Use conventional commits for clear history: feat:, fix:, docs:, refactor:, test:, chore:
+Try 'git commit -v' to see diff while writing commit message for context
+Use 'git commit --fixup <hash>' to create commits you'll auto-squash later with rebase
+Try writing commit messages in imperative mood: "Add feature" not "Added feature"
+Use 'git show' immediately after committing to review what you just committed
+Try 'git log -1 --stat' to see files changed in your last commit
+Use 'git commit -a' to stage and commit modified files in one command (careful with new files)
+Try keeping commits focused on one logical change for easier code review
+Use first line as summary (50 chars), blank line, then detailed explanation if needed
+Try 'git log --oneline -5' to quickly review your recent commits
+Use meaningful commit messages - your future self will thank you
+Try 'git rebase -i HEAD~3' later to clean up commit history before pushing
+Use 'git diff HEAD' before committing to see all uncommitted changes
+Try atomic commits - each commit should leave codebase in working state
+Use 'git commit --trailer "Reviewed-by: Name"' to add metadata to commits
+Try 'git log --grep="pattern"' to search commit messages later
+Use 'git commit --allow-empty -m "trigger CI"' to retrigger builds without code changes
+Try 'git commit --signoff' to add Signed-off-by line for open source contributions

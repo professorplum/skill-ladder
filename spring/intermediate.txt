@@ -1,0 +1,20 @@
+Use @Transactional to manage database transactions declaratively
+Try @Transactional(readOnly = true) on read operations for performance optimization
+Use @RestControllerAdvice for global exception handling across controllers
+Try @ExceptionHandler to handle specific exceptions in controllers
+Use @Async to execute methods asynchronously in separate thread
+Try @Scheduled for cron-like scheduled tasks: @Scheduled(cron = "0 0 * * * *")
+Use @Cacheable to cache method results and improve performance
+Try @CacheEvict to invalidate cache entries when data changes
+Use @ConditionalOnProperty to conditionally enable beans based on properties
+Try @Profile to activate beans only in specific environments
+Use @EventListener to handle application events
+Try ApplicationEventPublisher to publish custom events
+Use @Validated on class level for method-level validation
+Try custom validators by implementing ConstraintValidator
+Use constructor injection with final fields for immutable dependencies
+Try @Qualifier when multiple beans of same type exist
+Use Spring Boot Actuator for production-ready monitoring endpoints
+Try @DataJpaTest for integration testing of repository layer
+Use @WebMvcTest for testing controllers in isolation
+Try TestRestTemplate or WebTestClient for integration testing REST endpoints

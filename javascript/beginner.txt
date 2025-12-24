@@ -1,0 +1,20 @@
+Use const for variables that won't be reassigned, let for those that will
+Try template literals for string interpolation: `Hello ${name}` instead of concatenation
+Use arrow functions for concise function syntax: const add = (a, b) => a + b
+Try destructuring to extract values: const { name, age } = person
+Use array destructuring: const [first, second] = array
+Try spread operator to copy arrays: const copy = [...original]
+Use spread operator to copy objects: const copy = { ...original }
+Try default parameters: function greet(name = "Guest") { ... }
+Use array methods like map() to transform arrays: numbers.map(n => n * 2)
+Try filter() to get subset of array: users.filter(u => u.active)
+Use reduce() to aggregate values: numbers.reduce((sum, n) => sum + n, 0)
+Try optional chaining to safely access nested properties: user?.address?.street
+Use nullish coalescing for default values: const name = input ?? "Default"
+Try Array.includes() to check if array contains value
+Use Array.find() to get first matching element from array
+Try Object.keys(), Object.values(), Object.entries() to iterate objects
+Use JSON.stringify() and JSON.parse() to serialize/deserialize data
+Try Promise.all() to wait for multiple promises: await Promise.all([promise1, promise2])
+Use async/await for cleaner asynchronous code than promise chains
+Try Array.some() to check if any element matches: users.some(u => u.admin)

@@ -1,0 +1,20 @@
+Use 'git commit --amend' to fix your last commit message or add forgotten files
+Try 'git rebase -i HEAD~3' to interactively clean up last 3 commits
+Use 'git cherry-pick commit-hash' to apply specific commit from another branch
+Try 'git reflog' to recover lost commits or find previous HEAD positions
+Use 'git bisect' to binary search through commits to find bug introduction
+Try 'git blame file' to see who changed each line and when
+Use 'git stash save "description"' to name your stashes for easy identification
+Try 'git stash list' to see all stashed changes with descriptions
+Use 'git reset --soft HEAD~1' to undo commit but keep changes staged
+Try 'git reset --hard origin/main' to make local match remote exactly
+Use 'git fetch --prune' to remove deleted remote branches from local list
+Try 'git rebase main' on feature branch to update it with latest main
+Use 'git merge --squash feature' to combine all feature commits into one
+Try 'git log --grep="keyword"' to search commit messages
+Use 'git diff branch1..branch2' to compare two branches
+Try 'git clean -fd' to remove untracked files and directories
+Use 'git commit --fixup commit-hash' for commits you'll auto-squash later
+Try 'git rebase -i --autosquash main' to automatically squash fixup commits
+Use 'git worktree add ../feature-2 feature-2' to work on multiple branches simultaneously
+Try 'git log --follow file' to see history of file including renames

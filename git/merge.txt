@@ -1,0 +1,20 @@
+Use 'git merge --no-ff <branch>' to always create merge commit for history clarity
+Try 'git merge --squash <branch>' to combine all commits into one before merging
+Use 'git merge --abort' to cancel merge if conflicts are too complex
+Try 'git log --merge' to see commits that caused conflicts
+Use 'git diff' during conflict resolution to see what needs fixing
+Try 'git mergetool' to resolve conflicts with visual diff tool
+Use 'git merge origin/main' to merge remote changes into your local branch
+Try 'git log --oneline --graph' after merge to visualize resulting history
+Use 'git merge --no-commit <branch>' to stage merge without auto-commit for review
+Try keeping main/master branch clean - only merge tested, working code
+Use 'git log --first-parent' to see history following only merge commits
+Try rebasing feature branches before merging for cleaner linear history
+Use 'git merge --edit' to customize the merge commit message
+Try 'git branch -d <branch>' to delete merged feature branches and keep repo clean
+Use semantic merge messages: "Merge feature/auth into main"
+Try 'git show :1:file' :2:file :3:file to see different conflict versions
+Use 'git clean -fd' after merge to remove untracked files
+Try 'git merge --ff-only' to ensure merge is fast-forward or fail
+Use 'git reflog' if you need to undo a problematic merge
+Try reviewing PR/MR diffs before merging to catch issues early

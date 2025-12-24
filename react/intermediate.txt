@@ -1,0 +1,20 @@
+Use React.memo() to prevent unnecessary re-renders of components
+Try useCallback() to memoize callback functions: useCallback(() => {}, [deps])
+Use useMemo() to memoize expensive calculations: useMemo(() => compute(), [deps])
+Try useReducer() for complex state logic: const [state, dispatch] = useReducer(reducer, initial)
+Use useContext() to consume context without prop drilling
+Try createContext() and Provider to share state across component tree
+Use useRef() to persist values across renders without causing re-renders
+Try forwardRef() to pass refs through components to DOM nodes
+Use custom hooks to extract reusable stateful logic
+Try lazy loading with React.lazy() and Suspense for code splitting
+Use Error Boundaries to catch and handle component errors gracefully
+Try useImperativeHandle() to customize ref exposure to parent components
+Use React.StrictMode in development to catch potential problems
+Try useLayoutEffect() for DOM measurements before browser paint
+Use useId() hook for generating unique IDs for accessibility
+Try React.Children utilities for manipulating children props
+Use cloneElement() to add props to children elements
+Try portals with createPortal() for rendering outside component hierarchy
+Use useTransition() for marking state updates as non-urgent
+Try useDeferredValue() to defer updating non-critical UI parts

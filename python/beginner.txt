@@ -1,0 +1,20 @@
+Use f-strings for string formatting: f"Hello {name}" instead of .format() or %
+Try list comprehensions for concise transformations: [x*2 for x in numbers]
+Use with statement for file handling to auto-close: with open('file.txt') as f:
+Try enumerate() when you need both index and value: for i, item in enumerate(list)
+Use dict.get(key, default) to safely access dictionary values
+Try zip() to iterate over multiple lists together: for a, b in zip(list1, list2)
+Use * for unpacking iterables: a, *rest, b = [1, 2, 3, 4, 5]
+Try ** for unpacking dictionaries: merged = {**dict1, **dict2}
+Use any() and all() to check conditions across iterables
+Try dict comprehensions: {k: v*2 for k, v in dict.items()}
+Use isinstance() to check object types: isinstance(obj, str)
+Try pathlib for file path operations: from pathlib import Path
+Use json.dumps() and json.loads() for JSON serialization
+Try datetime for date/time handling: from datetime import datetime
+Use sets for fast membership testing: if item in my_set
+Try collections.defaultdict for dictionaries with default values
+Use @property decorator to create computed attributes
+Try dataclasses for simple data containers: @dataclass class Person
+Use type hints for better code clarity: def greet(name: str) -> str
+Try breakpoint() to drop into debugger instead of print debugging

@@ -1,0 +1,20 @@
+Use var for local variables when type is obvious from right side assignment
+Try String.format() to build formatted strings: String.format("Hello %s", name)
+Use StringBuilder for concatenating strings in loops instead of +
+Try List.of() to create immutable lists: List<String> names = List.of("Alice", "Bob")
+Use Optional<T> to handle potentially null values explicitly
+Try try-with-resources to automatically close files: try (var reader = new FileReader("file.txt"))
+Use enhanced for loop for collections: for (String item : list)
+Try Stream API for collection operations: list.stream().filter().map().collect()
+Use equals() to compare strings, not == operator
+Try switch expressions (Java 14+): return switch(day) { case MONDAY -> 1; ... }
+Use record types (Java 14+) for data classes: record Person(String name, int age) {}
+Try text blocks (Java 15+) for multi-line strings: """ multi line """
+Use Collections.emptyList() instead of new ArrayList<>() for empty immutable lists
+Try Map.of() to create small immutable maps: Map.of("key1", "val1", "key2", "val2")
+Use instanceof pattern matching: if (obj instanceof String s) { use s directly }
+Try sealed classes (Java 17+) to restrict which classes can extend yours
+Use Files.readString(path) to read entire file into String (Java 11+)
+Try LocalDate and LocalDateTime instead of old Date and Calendar classes
+Use Comparator.comparing() for sorting: list.sort(Comparator.comparing(Person::getName))
+Try method references: list.forEach(System.out::println) instead of lambda

@@ -1,0 +1,20 @@
+Use CompletableFuture for asynchronous programming: CompletableFuture.supplyAsync(() -> fetchData())
+Try Stream.parallel() for parallel processing of large collections
+Use custom exceptions to make error handling more specific and meaningful
+Try sealed interfaces to define fixed set of implementations at compile time
+Use @FunctionalInterface annotation on single-method interfaces for lambdas
+Try method references with constructors: list.stream().map(String::new)
+Use Optional.orElseThrow() to provide custom exceptions for missing values
+Try flatMap() to flatten nested streams: list.stream().flatMap(Collection::stream)
+Use Collectors.groupingBy() to group collections: people.stream().collect(groupingBy(Person::getAge))
+Try ThreadLocal for thread-safe storage without synchronization overhead
+Use WeakHashMap for caches where entries can be garbage collected
+Try ReentrantLock for advanced lock control beyond synchronized
+Use ConcurrentHashMap for thread-safe maps with better performance
+Try AtomicInteger and AtomicReference for lock-free thread-safe operations
+Use record patterns (Java 19+) in switch: case Person(String name, int age) -> ...
+Try virtual threads (Java 21+) for lightweight concurrency: Thread.startVirtualThread()
+Use SequencedCollection (Java 21+) for ordered collections with first/last access
+Try pattern matching in switch with guards: case String s when s.length() > 5 -> ...
+Use Collectors.teeing() to apply two collectors and merge results
+Try Files.walk() to traverse directory trees with Stream API

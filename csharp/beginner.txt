@@ -1,0 +1,20 @@
+Use var for local variables when type is clear from assignment
+Try string interpolation: $"Hello {name}" instead of string concatenation
+Use List<T> for dynamic arrays: var names = new List<string>();
+Try LINQ for querying collections: list.Where(x => x > 5).Select(x => x * 2)
+Use foreach for iterating collections: foreach (var item in collection)
+Try nullable reference types with ?: string? name = null;
+Use pattern matching with is: if (obj is string s) { use s }
+Try switch expressions for concise conditional logic: status switch { 200 => "OK", 404 => "Not Found" }
+Use auto-properties: public string Name { get; set; }
+Try init-only properties for immutable objects: public string Name { get; init; }
+Use collection initializers: var list = new List<int> { 1, 2, 3 };
+Try object initializers: var person = new Person { Name = "Alice", Age = 30 };
+Use nameof() to get property names safely: nameof(person.Name)
+Try string.IsNullOrEmpty() to check for null or empty strings
+Use StringBuilder for building strings in loops
+Try Dictionary<TKey, TValue> for key-value storage
+Use throw expressions in null coalescing: name ?? throw new ArgumentNullException()
+Try out parameters to return multiple values from methods
+Use default literal for default values: int x = default;
+Try expression-bodied members: public int Double(int x) => x * 2;

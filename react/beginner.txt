@@ -1,0 +1,20 @@
+Use useState() hook to add state to functional components: const [count, setCount] = useState(0)
+Try useEffect() hook for side effects like data fetching: useEffect(() => {}, [dependencies])
+Use JSX to write HTML-like syntax in JavaScript: <div>Hello {name}</div>
+Try props to pass data from parent to child components: <Child name="Alice" />
+Use destructuring in component props: function Button({ label, onClick }) { }
+Try key prop on list items for efficient rendering: {items.map(item => <div key={item.id}>)}
+Use conditional rendering with && operator: {isVisible && <Component />}
+Try ternary operator for conditional JSX: {isLoading ? <Spinner /> : <Content />}
+Use React.Fragment or <> to group elements without extra DOM nodes
+Try controlled components for form inputs: value={state} onChange={e => setState(e.target.value)}
+Use onClick, onChange handlers for event handling in JSX
+Try prevent default in forms: e.preventDefault() in submit handler
+Use CSS classes with className prop: <div className="container">
+Try inline styles with double curly braces: <div style={{ color: 'red' }}>
+Use React DevTools browser extension to inspect component tree and state
+Try lifting state up when multiple components need same state
+Use callback functions to update state based on previous state: setCount(prev => prev + 1)
+Try import/export to organize components across files
+Use PropTypes or TypeScript for type checking props
+Try create-react-app or Vite to bootstrap React projects quickly

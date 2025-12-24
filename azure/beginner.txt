@@ -1,0 +1,20 @@
+Use 'az login' to authenticate Azure CLI with your account
+Try 'az account list' to see all your subscriptions and which is active
+Use 'az account set --subscription "name"' to switch between subscriptions
+Try 'az group create' to create resource groups for organizing resources
+Use 'az group list' to see all your resource groups
+Try 'az webapp create' to deploy web applications to Azure App Service
+Use 'az storage account create' to create storage accounts for blob storage
+Try 'az storage blob upload' to upload files to Azure Blob Storage
+Use 'az sql server create' to create Azure SQL Database servers
+Try 'az keyvault create' to create Key Vault for secrets management
+Use 'az --output table' for human-readable table output format
+Try 'az find "command"' to get help and examples: az find "az vm"
+Use Azure Portal web interface for visual resource management
+Try Azure Resource Manager (ARM) templates for infrastructure as code
+Use 'az webapp deployment source' to configure continuous deployment
+Try 'az monitor' commands to view metrics and logs
+Use tags to organize resources: --tags Environment=Dev Project=MyApp
+Try 'az configure --defaults location=eastus' to set default location
+Use 'az interactive' for autocomplete and inline help
+Try Azure CLI with --help flag on any command for documentation

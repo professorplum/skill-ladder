@@ -1,0 +1,20 @@
+Use command substitution $(cmd) to pass command output as argument: touch $(date +%Y-%m-%d).log
+Try pipe chains to process data: cat file | rg pattern | sort | uniq
+Use 'xargs' to pass stdin as arguments: find . -name "*.tmp" | xargs rm
+Try 'rg -l pattern' to list only filenames containing matches
+Use process substitution <(cmd) to use command output as file: diff <(ls dir1) <(ls dir2)
+Try 'fd -e js' to find only JavaScript files by extension
+Use 'bat --style=plain' for cat-like output with syntax highlighting
+Try 'eza --tree -L 2' to see directory structure 2 levels deep
+Use 'rg pattern -g "*.java"' to search only in Java files
+Try command aliases in fish: alias gst='git status'
+Use 'asdf current' to check which language versions are active
+Try 'httpie' for API testing: http GET api.example.com/users
+Use 'jq' to parse JSON from CLI: curl api.com | jq '.data'
+Try 'watch -n 1 command' to run command every second
+Use background jobs with & and bring back with 'fg'
+Try 'nohup command &' to run process that survives terminal close
+Use 'kill -9 $(pgrep process-name)' to force kill processes
+Try 'lsof -i :8080' to see what's using a specific port
+Use 'netstat -tuln' to see all listening ports
+Try 'du -sh *' to see disk usage by directory in current folder

@@ -1,0 +1,20 @@
+Use 'git status' to see what files have changed before committing
+Try 'git add -p' to review and stage changes in chunks
+Use 'git diff' to see exact line changes before staging
+Try 'git diff --staged' to see what you're about to commit
+Use 'git commit -m "message"' to commit with inline message
+Try 'git log --oneline' to see compact commit history
+Use 'git checkout -b feature-name' to create and switch to new branch
+Try 'git checkout -' to switch back to previous branch
+Use 'git branch' to list all local branches (* shows current)
+Try 'git pull' to fetch and merge changes from remote
+Use 'git push' to send your commits to remote repository
+Try 'git clone url' to download a repository to your machine
+Use 'git stash' to temporarily save uncommitted work
+Try 'git stash pop' to restore your stashed changes
+Use 'git branch -d branch-name' to delete a merged branch
+Try 'git remote -v' to see remote repository URLs
+Use '.gitignore' file to exclude files from version control
+Try 'git restore file' to discard changes in working directory
+Use 'git log --graph --oneline --all' to visualize branch history
+Try 'git show commit-hash' to see details of a specific commit

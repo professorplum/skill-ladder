@@ -1,0 +1,20 @@
+Use Azure Functions for serverless compute: 'az functionapp create'
+Try Azure Container Instances for quick container deployment
+Use Azure Kubernetes Service (AKS) for managed Kubernetes clusters
+Try Azure DevOps or GitHub Actions for CI/CD pipelines
+Use Azure Key Vault SDK to retrieve secrets at runtime, not in config files
+Try Managed Identity for Azure resources to authenticate without credentials
+Use Azure Application Insights for application performance monitoring
+Try Log Analytics workspace for centralized logging across resources
+Use Azure Front Door for global load balancing and CDN
+Try Azure API Management for API gateway and management
+Use Azure Service Bus for reliable message queuing between services
+Try Azure Event Grid for event-driven architectures
+Use Azure Cosmos DB for globally distributed NoSQL database
+Try App Service deployment slots for zero-downtime deployments
+Use Azure Private Link to access services over private network
+Try Azure Policy to enforce organizational standards and compliance
+Use Azure Cost Management to analyze and optimize spending
+Try 'az deployment group create' to deploy ARM/Bicep templates
+Use Bicep language for more concise infrastructure as code than ARM JSON
+Try Azure CLI with JMESPath queries: --query "properties.provisioningState"

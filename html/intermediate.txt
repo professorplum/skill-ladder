@@ -1,0 +1,20 @@
+Use <picture> element with multiple sources for responsive images across devices
+Try <source> with media queries inside picture for art direction
+Use srcset and sizes on img for responsive image delivery
+Try <template> to hold HTML fragments that can be cloned via JavaScript
+Use <slot> in custom elements for composable component templates
+Try <dialog> element for native modals with built-in backdrop and focus trap
+Use aria-label to provide accessible names when visible text isn't appropriate
+Try aria-describedby to associate help text with form inputs
+Use role attribute when semantic HTML isn't enough: role="navigation"
+Try <meter> to display measurement in known range: <meter min="0" max="100" value="75">
+Use <progress> for showing task completion: <progress value="70" max="100">
+Try inputmode attribute to suggest keyboard type on mobile: inputmode="numeric"
+Use enterkeyhint to customize mobile keyboard enter button: enterkeyhint="send"
+Try <link rel="modulepreload"> to preload ES modules
+Use <script type="module"> for modern JavaScript with imports
+Try defer attribute on scripts to load without blocking HTML parsing
+Use async attribute on independent scripts to load and execute ASAP
+Try multiple attribute on select and input type="file" for multi-selection
+Use list attribute with datalist to create autocomplete suggestions
+Try content-visibility CSS in HTML for render performance on long pages

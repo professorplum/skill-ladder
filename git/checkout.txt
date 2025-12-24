@@ -1,0 +1,20 @@
+Use 'git switch -c <branch>' to create new branch with modern Git syntax
+Try 'git switch -' to quickly switch back to previous branch
+Use 'git checkout -b feature/name' to create and switch to new branch in one command
+Try 'git branch -v' to see last commit on each branch
+Use 'git branch -a' to see all branches including remote tracking branches
+Try 'git branch --merged' to find branches already merged into current branch
+Use 'git branch -d <name>' to delete branches that are fully merged
+Try 'git checkout -t origin/<branch>' to create local branch tracking remote
+Use 'git branch -m old-name new-name' to rename branches
+Try 'git log --oneline --graph --all' to visualize all branch relationships
+Use descriptive branch names: feature/add-auth or fix/login-bug
+Try 'git checkout -' repeatedly to toggle between two branches
+Use 'git branch --no-merged' to find branches with unmerged work
+Try 'git checkout -- <file>' to discard local changes to specific file
+Use 'git remote prune origin' to clean up stale remote-tracking branches
+Try 'git branch -vv' to see which remote branches your local branches track
+Use 'git fetch origin <branch>:<branch>' to create local branch from remote
+Try 'git checkout <commit-hash>' to view code at specific point (detached HEAD)
+Use 'git checkout -b fix-bug abc123' to create branch from specific commit
+Try 'git branch -D <name>' to force delete unmerged branch (use carefully)

@@ -1,0 +1,20 @@
+Use @RestController to create REST API endpoints instead of @Controller + @ResponseBody
+Try @GetMapping, @PostMapping, @PutMapping, @DeleteMapping for HTTP method-specific endpoints
+Use @RequestBody to bind JSON request body to Java objects
+Try @PathVariable to extract variables from URL paths: @GetMapping("/users/{id}")
+Use @RequestParam to bind query parameters: @RequestParam String name
+Try @Autowired constructor injection for dependency injection (preferred over field)
+Use @Service for business logic layer components
+Try @Repository for data access layer components
+Use @Component for generic Spring-managed components
+Try @Configuration to define Spring configuration classes
+Use @Bean to define beans in configuration classes
+Try @Value to inject property values: @Value("${app.name}")
+Use @ConfigurationProperties for type-safe configuration binding
+Try application.properties or application.yml for external configuration
+Use @SpringBootApplication on main class to enable auto-configuration
+Try Spring Boot DevTools for automatic application restart during development
+Use @RequestMapping at class level to define base path for all endpoints
+Try @ResponseStatus to set HTTP status codes on methods or exceptions
+Use @Valid on parameters to trigger Bean Validation
+Try ResponseEntity<T> for full control over HTTP response including headers and status

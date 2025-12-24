@@ -1,0 +1,20 @@
+Use multi-stage builds to create smaller production images: FROM node AS builder
+Try BuildKit for faster builds: export DOCKER_BUILDKIT=1
+Use .dockerignore patterns to exclude node_modules and build artifacts
+Try COPY package*.json before npm install for better layer caching
+Use specific base image versions instead of :latest for reproducibility
+Try alpine-based images for smaller size: node:18-alpine
+Use docker-compose.override.yml for local development settings
+Try healthchecks in docker-compose to auto-restart unhealthy containers
+Use named volumes instead of bind mounts for better performance
+Try docker volume prune to clean up unused volumes
+Use --no-cache flag when dependencies change: docker build --no-cache
+Try docker stats to monitor resource usage of running containers
+Use depends_on with condition in docker-compose for startup order
+Try env_file in docker-compose to load environment variables from file
+Use docker save and docker load to backup/transfer images
+Try docker commit to create new image from running container changes
+Use --memory and --cpus to limit container resource usage
+Try docker network create for custom networks between containers
+Use docker logs --since 1h to see recent logs only
+Try docker system df to see disk usage by images, containers, volumes

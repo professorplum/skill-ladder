@@ -1,0 +1,20 @@
+Try 'tldr tar' to see practical examples instead of reading man pages
+Use Ctrl+R to search your command history with fzf fuzzy finder
+Try 'bat file.js' to view files with syntax highlighting instead of cat
+Use 'eza -l' to list files with git status and better colors than ls
+Try 'fd pattern' to find files faster than find command
+Use 'rg "search term"' to search code faster than grep
+Try Ctrl+T in terminal to fuzzy find and insert file paths
+Use 'cd -' to jump back to your previous directory
+Try 'mkcd project-name' to create and enter a directory in one step
+Use tab completion - type first few letters and hit Tab
+Try '!!' to repeat your last command (useful with sudo)
+Use Ctrl+L to clear screen instead of typing 'clear'
+Try 'history | rg pattern' to search your command history
+Use Ctrl+A to jump to start of line, Ctrl+E to end
+Try 'pwd' to print your current working directory path
+Use ~ as shorthand for your home directory in paths
+Try 'ls -lah' to see hidden files with sizes in human-readable format
+Use arrow up/down to cycle through previous commands
+Try 'which command' to find where a command is installed
+Use 'echo $PATH' to see directories searched for commands

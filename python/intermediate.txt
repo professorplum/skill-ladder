@@ -1,0 +1,20 @@
+Use generators for memory-efficient iteration: def gen(): yield item
+Try contextlib.contextmanager to create custom context managers with @contextmanager
+Use functools.lru_cache for memoizing expensive function results
+Try itertools for efficient iteration patterns: chain(), groupby(), combinations()
+Use collections.Counter for counting hashable objects efficiently
+Try functools.partial for creating functions with preset arguments
+Use __slots__ in classes to reduce memory usage: __slots__ = ['name', 'age']
+Try asyncio for concurrent I/O operations: async def fetch(); await fetch()
+Use walrus operator := for assignment in expressions: if (n := len(items)) > 10
+Try match statement (Python 3.10+) for pattern matching: match value: case [x, y]:
+Use functools.wraps to preserve function metadata in decorators
+Try typing.Protocol for structural subtyping (duck typing with type hints)
+Use contextvars for context-local state in async code
+Try dataclasses with frozen=True for immutable objects
+Use __init_subclass__ for class customization at subclass creation time
+Try functools.singledispatch for function overloading based on type
+Use typing.TypedDict for dictionary type hints with specific keys
+Try pydantic for data validation and settings management
+Use weakref for references that don't prevent garbage collection
+Try concurrent.futures for simple parallelism: ThreadPoolExecutor, ProcessPoolExecutor

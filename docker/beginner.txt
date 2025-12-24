@@ -1,0 +1,20 @@
+Use 'docker ps' to see running containers, add -a to see all containers
+Try 'docker run -d image' to run container in background (detached mode)
+Use 'docker exec -it container bash' to get shell access inside running container
+Try 'docker logs -f container' to tail container logs in real time
+Use 'docker build -t myapp:latest .' to build image from Dockerfile
+Try 'docker images' to list all images on your machine
+Use 'docker stop container' to gracefully stop running container
+Try 'docker rm container' to remove stopped containers
+Use 'docker rmi image' to remove images you no longer need
+Try 'docker pull image' to download image from registry
+Use 'docker-compose up' to start multi-container applications
+Try 'docker-compose down' to stop and remove compose containers
+Use .dockerignore to exclude files from build context (like .gitignore)
+Try 'docker inspect container' to see detailed container configuration
+Use -p flag to map ports: docker run -p 8080:80 to map container 80 to host 8080
+Try -v flag to mount volumes: docker run -v /host/path:/container/path
+Use --name to give containers memorable names: docker run --name myapp
+Try 'docker network ls' to see container networks
+Use 'docker system prune' to clean up unused containers, images, and networks
+Try Docker Desktop for GUI management on Windows and Mac

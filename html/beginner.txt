@@ -1,0 +1,20 @@
+Use semantic tags like <header>, <nav>, <main>, <footer> instead of divs for structure
+Try <section> to group related content and <article> for standalone content
+Use alt attributes on images for accessibility and SEO: <img src="pic.jpg" alt="Description">
+Try <label for="input-id"> to make form labels clickable and improve accessibility
+Use <button> elements instead of clickable divs for interactive elements
+Try data-* attributes to store custom data: <div data-user-id="123">
+Use <figure> and <figcaption> to group images with captions semantically
+Try proper heading hierarchy: use h1-h6 in order, don't skip levels
+Use <em> for emphasis and <strong> for importance, not just <i> and <b>
+Try <form> with method="post" for data submission instead of JavaScript-only forms
+Use <meta name="viewport" content="width=device-width, initial-scale=1"> for responsive design
+Try <link rel="preload"> to hint browser to load critical resources early
+Use required attribute on form inputs for built-in validation
+Try placeholder attribute for input hints, but don't use instead of labels
+Use type="email", type="tel", type="url" for better mobile keyboards
+Try <details> and <summary> for native collapsible content without JavaScript
+Use autocomplete attribute to help browsers fill forms: autocomplete="email"
+Try <output> element to display calculation results in forms
+Use loading="lazy" on images to defer loading until needed
+Try <time datetime="2024-01-01"> for machine-readable dates

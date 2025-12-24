@@ -1,0 +1,20 @@
+Use flexbox for one-dimensional layouts: display: flex; justify-content: center;
+Try display: grid for two-dimensional layouts with rows and columns
+Use relative units (rem, em, %) instead of px for better scalability
+Try mobile-first media queries: start with mobile styles, add @media (min-width:)
+Use margin: 0 auto to center block elements horizontally
+Try padding instead of margin to include background in spacing
+Use box-sizing: border-box to include padding in element width calculations
+Try CSS variables for reusable values: --primary-color: #007bff;
+Use :hover, :focus, :active pseudo-classes for interactive states
+Try gap property in flexbox/grid instead of margins between items
+Use max-width to prevent content from becoming too wide on large screens
+Try object-fit: cover on images to fill containers while maintaining aspect ratio
+Use transition property for smooth animations: transition: all 0.3s ease;
+Try transform: scale() for hover effects instead of changing width/height
+Use position: relative on parent and position: absolute on child for precise positioning
+Try z-index to control stacking order of overlapping elements
+Use overflow: hidden to clip content that exceeds element bounds
+Try text-align: center for centering inline content
+Use line-height to control spacing between lines of text
+Try :nth-child() selector to style specific child elements: li:nth-child(odd)
