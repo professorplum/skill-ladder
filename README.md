@@ -61,21 +61,46 @@ All categories have beginner and intermediate levels:
 
 ## Installation
 
+### GitHub Codespaces (Quickest)
+
+```bash
+# Install Fish shell
+sudo apt-get update && sudo apt-get install -y fish
+
+# Enter Fish and set path
+fish
+set -gx SKILL_LADDER_PATH /workspaces/skill-ladder
+
+# Source functions
+source $SKILL_LADDER_PATH/functions/show-tip.fish
+source $SKILL_LADDER_PATH/functions/tip-config.fish
+source $SKILL_LADDER_PATH/functions/check-project-tip.fish
+
+# Test it
+tip-config --list
+show-tip terminal/beginner
+```
+
 ### As Part of Dotfiles (Recommended)
 
 This library is designed to integrate with a dotfiles setup. The dotfiles repo will clone this automatically during installation.
 
-### Standalone Installation
+### Standalone Installation (Local)
 
-You can use this library independently:
 ```bash
 # Clone the repository
-git clone https://github.com/YOURUSERNAME/skill-ladder
-cd skill-ladder
+git clone https://github.com/professorplum/skill-ladder ~/skill-ladder
 
-# Source the functions in fish shell
-source functions/show-tip.fish
-source functions/tip-config.fish
+# Install Fish if needed (Ubuntu/Debian)
+sudo apt-get install -y fish
+
+# Enter Fish and set path
+fish
+set -gx SKILL_LADDER_PATH ~/skill-ladder
+
+# Source functions
+source $SKILL_LADDER_PATH/functions/show-tip.fish
+source $SKILL_LADDER_PATH/functions/tip-config.fish
 
 # Enable categories
 tip-config --enable terminal-beginner git-beginner java-beginner
@@ -161,8 +186,7 @@ skill-ladder/
 ├── functions/
 │   ├── show-tip.fish
 │   ├── tip-config.fish
-│   ├── check-project-tip.fish
-│   └── cd.fish
+│   └── check-project-tip.fish
 ├── enabled-categories.txt
 ├── terminal/
 │   ├── beginner.txt
@@ -200,6 +224,6 @@ MIT License - See [LICENSE](LICENSE) for details
 
 ## Questions?
 
-- 🐛 **Found an inaccurate tip?** [Open an issue](https://github.com/YOURUSERNAME/skill-ladder/issues)
-- 💡 **Have a great tip to add?** [Submit a PR](https://github.com/YOURUSERNAME/skill-ladder/pulls)
+- 🐛 **Found an inaccurate tip?** [Open an issue](https://github.com/professorplum/skill-ladder/issues)
+- 💡 **Have a great tip to add?** [Submit a PR](https://github.com/professorplum/skill-ladder/pulls)
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env fish
 # check-project-tip.fish - Detect project type and show relevant tip
-# Called on shell startup and when entering directories
+# Uses Fish event system to trigger on directory changes
 
 function check-project-tip
     # Check for various project indicators
@@ -24,7 +24,7 @@ function check-project-tip
     end
     
     # C# / .NET
-    if count *.csproj >/dev/null 2>&1; or test -f *.sln
+    if count *.csproj >/dev/null 2>&1; or count *.sln >/dev/null 2>&1
         show-tip csharp/beginner --context
         return
     end
@@ -34,5 +34,10 @@ function check-project-tip
         show-tip docker/beginner --context
         return
     end
+end
+
+# Auto-trigger on directory change
+function __skill_ladder_check_project --on-variable PWD
+    check-project-tip
 end
 

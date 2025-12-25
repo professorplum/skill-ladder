@@ -46,7 +46,7 @@ function tip-config
             echo "Enabled Categories:"
             set_color normal
             if test -f $enabled_file
-                cat $enabled_file | sed 's/^/  • /'
+                grep -v '^$' $enabled_file | sed 's/^/  • /'
             else
                 echo "  (none - all categories enabled by default)"
             end
@@ -114,3 +114,4 @@ function tip-config
             echo "  tip-config --disable docker-beginner"
     end
 end
+
